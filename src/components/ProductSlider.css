@@ -1,0 +1,22 @@
+.slick-slide {
+    margin-right: 15px;
+    width: 200px;
+}
+
+.slick-track {
+    display: flex !important;
+    flex-wrap: nowrap;
+    padding-bottom: 50px;
+}
+
+.slider-container {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+
+@media(max-width:615px) {
+    .scroll-card {
+        margin-left: 25px;
+    }
+}

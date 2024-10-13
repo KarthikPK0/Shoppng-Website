@@ -1,0 +1,13 @@
+.s1 {
+
+    height: 550px;
+}
+
+.findMoreBtn {
+    background-color: #F86338;
+}
+
+.findMoreBtn:hover {
+    background-color: #d1532d;
+    transition: background-color 0.3s ease;
+}

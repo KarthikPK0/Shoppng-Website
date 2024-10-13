@@ -1,0 +1,122 @@
+.productDetails {
+    font-size: 15px;
+    color: #555;
+}
+
+.productDescription{
+    font-size: 13px;
+    color: #555;
+}
+
+
+.addNoteLink {
+    text-decoration: none;
+    color: #F86338;
+    transform: text-decoration 0.5s ease;
+}
+
+.addNoteLink:hover {
+    text-decoration: underline;
+}
+
+.wishlistButton {
+    transform: background-color 0.5s ease;
+    transform: color 0.5s ease;
+}
+
+.wishlistButton:hover {
+    background-color: #d1532d;
+    color: #fff !important;
+}
+
+.cartButton {
+    transform: background-color 0.5s ease;
+    transform: color 0.5s ease;
+}
+
+.addToCartButton:hover {
+    background-color: #fff !important;
+    color: #d1532d !important;
+}
+
+.reviewCard {
+    max-width: 455px;
+    height: auto;
+}
+
+.user-image {
+    max-width: 100%;
+    height: 50px;
+}
+
+.product-image {
+    width: 75px;
+    height: 75px;
+    background-color: #F86338;
+}
+
+.product-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+.item-1 {
+    grid-row: 1/3;
+    grid-column: 1/4;
+}
+
+.item-2 {
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+
+.item-3 {
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+
+.item-4 {
+    grid-row: 3/4;
+    grid-column: 3/4;
+}
+
+@media (max-width: 768px) {
+    .gridContainer {
+        grid-template-columns: repeat(3, minmax(100px, 1fr)); 
+}
+
+@media(max-width:615px) {
+    .itemDetails h5 {
+        font-size: 14px !important;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .gridContainer {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .item-1 {
+        grid-column: 1/4; 
+    }
+
+    .item-2, .item-3, .item-4 {
+        grid-column: span 1; 
+    }
+}
+}
+
+
+
+
+
+
+

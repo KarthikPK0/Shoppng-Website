@@ -1,0 +1,106 @@
+.sCartHeader{
+    gap: 15px;
+}
+
+.sCartHeader a{
+    text-decoration: none;
+    color: #555;
+    font-weight: 600;
+
+}
+
+.sCartHeader a:hover{
+    color: #212529;
+
+}
+
+.cartCardImage img{
+    max-width: 100%;
+    height: 140px;
+}
+
+.cartCardContent h5{
+font-size: 18px;
+font-weight: 600;
+margin-bottom: 15px;
+}
+
+.pDetails{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.pAmount{
+    color: #F86338;
+    font-size: 42px;
+    font-weight: 600;
+
+}
+
+.cartCardButtons Button{
+    color:#F86338;
+    border:1px solid #F86338;
+    transition: color 0.5 ease;
+    transition: border 0.5s ease;
+}
+
+.cartCardButtons Button:hover{
+    color:#d1532d;
+    border:1px solid #d1532d
+}
+
+.coupon h5{
+    font-weight: 500;
+}
+
+.coupon .form-control{
+    border-color: #F86338;
+}
+
+.applyBtn{
+    transition: color 0.5s ease;
+}
+
+.applyBtn:hover{
+    background-color: #d1532d !important;
+}
+
+.cardTable h5{
+    font-weight: 600;
+
+}
+
+.cardTable table {
+    width: 100%;
+    border-spacing: 0 10px;
+  }
+  
+  .cardTable th, .cardTable td {
+    padding: 8px 0;
+    text-align: left; 
+  }
+  
+
+.cardTable table tr th{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.cardTable table tr td{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.changeLink{
+    text-decoration: none;
+    color: #F86338;
+    font-weight: 600;
+    transition: text-decoration 0.5s ease;
+}
+
+.changeLink:hover{
+    color: #d1532d;
+    text-decoration: underline;
+}
+
+

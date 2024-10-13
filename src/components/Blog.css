@@ -1,0 +1,50 @@
+.insights{
+    padding:100px 95px 30px 95px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .seeMore{
+    text-decoration: none;
+    color: #F86338;
+    font-weight: 500;
+    transition: color 0.5s ease;
+  }
+  
+  .seeMore:hover{
+    color: #d1532d;
+  }
+  
+  .card-no-radius {
+    border-radius: 0 !important;
+  }
+  
+  .card-img-no-radius{
+    border-radius: 0 !important;
+  }
+  
+  .articleCard h5{
+    font-weight: 600;
+    font-size: 22px;
+  }
+
+  @media(max-width:615px){
+    .scroll-card{
+        margin-left: 25px;
+      }
+
+      .insights{
+        padding:80px 35px 30px 35px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .insights h2{
+        font-size: 18px;
+      }
+
+      .insights span{
+        font-size: 16px;
+      }
+      
+  }

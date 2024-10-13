@@ -1,0 +1,81 @@
+.collections{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    padding: 6px 90px 0 90px;
+  }
+
+  .collections li a{
+    text-decoration: none;
+    color: #555;
+    font-weight: 600;
+    transition: color 0.5s ease;
+  }
+
+  .collections li a:hover{
+    color: #F86338;
+  }
+
+ 
+
+  .arrow{
+    background-color: #F86338;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    transition: background-color 0.5 ease;
+  }
+
+  .arrow:hover{
+    background-color: #d1532d;
+  }
+
+  .image-hover {
+    transition: transform 0.3s ease;
+  }
+  
+  .image-hover:hover {
+    transform: scale(1.1); 
+  }
+
+  .cardContainer{
+    gap:20px;
+    padding:0 80px 0 80px;
+  }
+
+  .cardHead{
+    transition: text-decoration 0.5s ease; 
+  }
+
+  .cardHead:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+  }
+
+
+
+@media(max-width:1065px){
+
+  .collections{
+    padding: 6px 10px 0 10px;
+
+  }
+
+  .cardContainer{
+    padding: 0 40px 0 40px;
+  }
+
+}
+
+@media(max-width:615px){
+  .collections{
+    gap: 10px;
+  }
+}
+

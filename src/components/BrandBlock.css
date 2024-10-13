@@ -1,0 +1,11 @@
+
+.readStory{
+    text-decoration: none;
+    color: #F86338;
+    transition: color 0.5s ease;
+  }
+  
+  .readStory:hover{
+    color: #d1532d;
+  
+  }
