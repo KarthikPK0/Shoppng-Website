@@ -14,6 +14,11 @@
     width: 100%;
 }
 
+.sliderCardImg{
+    max-width: 180px !important;
+    height: 200px !important;
+}
+
 
 @media(max-width:615px) {
     .scroll-card {

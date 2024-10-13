@@ -50,7 +50,7 @@ function Cards({ title }) {
               {
                 allProducts?.length>0 ?
                 allProducts.map((product)=>{
-                 return <div className="card pt-3 d-flex align-items-center shadow pb-2 border-0 " style={{ width: '18rem', borderRadius:'0'}}>
+                 return <div key={product.id} className="card pt-3 d-flex align-items-center shadow pb-2 border-0 " style={{ width: '18rem', borderRadius:'0'}}>
                  <Link to={'id/productdetails'}>
                  <div className="card-image p-3  ">
                     <img src={product?.image} className="card-img-top img-fluid image-hover " alt="black-leather-jacket" />
