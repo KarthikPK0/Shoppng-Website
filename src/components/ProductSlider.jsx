@@ -73,7 +73,7 @@ function ProductSlider() {
               allProducts?.length>0 ?
               allProducts.map((product) => {
                 return (
-                  <div className="card pt-2 d-flex align-items-center scroll-card ms-1" key={product.id}>
+                  <div className="card pt-2 d-flex align-items-center scroll-card ms-2 ms-md-0" key={product.id}>
                     <div className="w-100 d-flex justify-content-start">
                       <span
                         style={{ backgroundColor: '#FFFFFF', color: '#F86338', fontSize: '13px', padding: '1px 5px', borderRadius: '6px', fontWeight: '500' }}
